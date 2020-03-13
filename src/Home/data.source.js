@@ -405,7 +405,7 @@ export const Feature70DataSource = {
         children: (
           <>
             <p>
-              Kumacoin2.0 is on testnet stage. mainnet don't work yet.
+              Kumacoin2.0の情報のみ（必要であればv1.0のリンクも追加
             </p>
           </>
         ),
@@ -419,7 +419,7 @@ export const Feature70DataSource = {
       {
         md: 6,
         xs: 24,
-        name: 'block0',
+        name: 'block-c0',
         className: 'feature7-block',
         children: {
           className: 'feature7-block-group',
@@ -450,7 +450,7 @@ export const Feature70DataSource = {
       {
         md: 6,
         xs: 24,
-        name: 'block1',
+        name: 'block-c1',
         className: 'feature7-block',
         children: {
           className: 'feature7-block-group',
@@ -481,7 +481,7 @@ export const Feature70DataSource = {
       {
         md: 6,
         xs: 24,
-        name: 'block2',
+        name: 'block-c2',
         className: 'feature7-block',
         href: 'https://web3.askmona.org/16',
         children: {
@@ -512,7 +512,7 @@ export const Feature70DataSource = {
       {
         md: 6,
         xs: 24,
-        name: 'block3',
+        name: 'block-p0',
         className: 'feature7-block',
         children: {
           className: 'feature7-block-group',
@@ -543,7 +543,38 @@ export const Feature70DataSource = {
       {
         md: 6,
         xs: 24,
-        name: 'block4',
+        name: 'block-p1',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          href: 'https://github.com/namuyan/bc4py',
+          children: [
+            {
+              name: 'image',
+              className: 'feature7-block-image',
+              children: 'https://i.imgur.com/b2qmoMg.png',
+            },
+            {
+              name: 'title',
+              className: 'feature7-block-title',
+              children: 'program',
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <>
+                  <p>Kumacoin2.0 source code</p>
+                </>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block-d0',
         className: 'feature7-block',
         children: {
           className: 'feature7-block-group',
@@ -574,7 +605,7 @@ export const Feature70DataSource = {
       {
         md: 6,
         xs: 24,
-        name: 'block5',
+        name: 'block-d1',
         className: 'feature7-block',
         children: {
           className: 'feature7-block-group',
@@ -605,7 +636,7 @@ export const Feature70DataSource = {
       {
         md: 6,
         xs: 24,
-        name: 'block6',
+        name: 'block-P0',
         className: 'feature7-block',
         children: {
           className: 'feature7-block-group',
@@ -636,7 +667,7 @@ export const Feature70DataSource = {
       {
         md: 6,
         xs: 24,
-        name: 'block7',
+        name: 'block-P1',
         className: 'feature7-block',
         children: {
           className: 'feature7-block-group',
@@ -667,16 +698,16 @@ export const Feature70DataSource = {
       {
         md: 6,
         xs: 24,
-        name: 'block8',
+        name: 'block-t0',
         className: 'feature7-block',
-        href: 'https://8bitwallet.kumacoin.dev/',
         children: {
           className: 'feature7-block-group',
+          href: 'https://8bitwallet.kumacoin.dev/',
           children: [
             {
               name: 'image',
               className: 'feature7-block-image',
-              children: 'https://i.imgur.com/YRUv4pm.png',
+              children: 'https://i.imgur.com/8oa8M1f.png',
             },
             {
               name: 'title',
@@ -688,38 +719,7 @@ export const Feature70DataSource = {
               className: 'feature7-block-content',
               children: (
                 <>
-                  <p>Kumacoin2.0 wallet</p>
-                </>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        md: 6,
-        xs: 24,
-        name: 'block9',
-        className: 'feature7-block',
-        children: {
-          className: 'feature7-block-group',
-          href: 'https://github.com/namuyan/bc4py',
-          children: [
-            {
-              name: 'image',
-              className: 'feature7-block-image',
-              children: 'https://i.imgur.com/b2qmoMg.png',
-            },
-            {
-              name: 'title',
-              className: 'feature7-block-title',
-              children: 'program',
-            },
-            {
-              name: 'content',
-              className: 'feature7-block-content',
-              children: (
-                <>
-                  <p>Kumacoin2.0 source code</p>
+                  <p>Kumacoin2.0 GUI interface</p>
                 </>
               ),
             },
@@ -751,7 +751,7 @@ export const Feature71DataSource = {
         children: (
           <>
             <p>
-              Kumacoin2.0 is on testnet stage. mainnet don't work yet.
+              Kumacoinのビルド済みパッケージ
             </p>
           </>
         ),
@@ -769,11 +769,11 @@ export const Feature71DataSource = {
         className: 'feature7-block',
         children: {
           className: 'feature7-block-group',
+          href: 'https://github.com/kumacoinproject/kumacoin/releases',
           children: [
             {
               name: 'content',
               className: 'feature7-block-content',
-              href: 'https://github.com/kumacoinproject/kumacoin/releases',
               children: (
                 <>
                   <p>Kumacoin1.0 windows binary</p>
@@ -790,11 +790,11 @@ export const Feature71DataSource = {
         className: 'feature7-block',
         children: {
           className: 'feature7-block-group',
+          href: 'https://github.com/namuyan/bc4py/releases',
           children: [
             {
               name: 'content',
               className: 'feature7-block-content',
-              href: 'https://github.com/namuyan/bc4py/releases',
               children: (
                 <>
                   <p>Kumacoin2.0 testnet package</p>
