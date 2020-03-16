@@ -254,7 +254,7 @@ export const Feature00DataSource = {
               className: 'content0-block-title',
               children: (
                 <>
-                  <p>AskMona</p>
+                  <p>BitcoinTalk</p>
                 </>
               ),
             },
@@ -262,7 +262,7 @@ export const Feature00DataSource = {
               name: 'content',
               children: (
                 <>
-                  <p>AskMona内にあるKumacoinスレ</p>
+                  <p>[ANN][KUMA] Kumacoin LAUNCHING 2014/04/28 15:00 GMT</p>
                 </>
               ),
             },
@@ -503,6 +503,37 @@ export const Feature70DataSource = {
               children: (
                 <>
                   <p>AskMona</p>
+                </>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block-c3',
+        className: 'feature7-block',
+        href: 'https://bitcointalk.org/index.php?topic=585772.0',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'image',
+              className: 'feature7-block-image',
+              children: 'https://i.imgur.com/7gGkEDi.png',
+            },
+            {
+              name: 'title',
+              className: 'feature7-block-title',
+              children: 'community',
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <>
+                  <p>BitcoinTalk kumacoin thread</p>
                 </>
               ),
             },
