@@ -309,7 +309,7 @@ export const Teams10DataSource = {
               className: 'teams1-title',
               children: (
                 <>
-                  <p>Eagle</p>
+                  <p>Eaglemw</p>
                 </>
               ),
             },
@@ -483,9 +483,9 @@ export const Feature70DataSource = {
         xs: 24,
         name: 'block-c2',
         className: 'feature7-block',
-        href: 'https://web3.askmona.org/16',
         children: {
           className: 'feature7-block-group',
+          href: 'https://web3.askmona.org/16',
           children: [
             {
               name: 'image',
@@ -514,9 +514,9 @@ export const Feature70DataSource = {
         xs: 24,
         name: 'block-c3',
         className: 'feature7-block',
-        href: 'https://bitcointalk.org/index.php?topic=585772.0',
         children: {
           className: 'feature7-block-group',
+          href: 'https://bitcointalk.org/index.php?topic=585772.0',
           children: [
             {
               name: 'image',
